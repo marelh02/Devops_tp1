@@ -16,6 +16,9 @@ public class DevopsTp1Application {
     CommandLineRunner test(){
         return (args -> {
             System.out.println("My first modification, to the index file");
+            System.out.println("My second modification, to the index file");
+            System.out.println("My third modification, to the index file");
+
         });
     }
 }
