@@ -15,7 +15,7 @@ public class DevopsTp1Application {
     @Bean
     CommandLineRunner test(){
         return (args -> {
-            System.out.println("My first modification");
+            System.out.println("My first modification, to the index file");
         });
     }
 }
